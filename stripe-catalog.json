@@ -1,0 +1,35 @@
+{
+  "brand": "Henry Intel",
+  "legalPayee": "H & H INVESTIGATION",
+  "product": "Local AI Operator",
+  "currency": "usd",
+  "skus": {
+    "deposit": {
+      "sku": "deposit",
+      "name": "Setup deposit",
+      "description": "Day 0 deposit. 50% of setup. Starts the same-week audit.",
+      "amountUsd": 2500,
+      "interval": "one_time",
+      "priceId": "price_1U888n2KW30Lvi4hNVDPiUFH",
+      "paymentLink": "https://buy.stripe.com/dRm3co5vg8HH4EhfB60Ba09"
+    },
+    "setup": {
+      "sku": "setup",
+      "name": "Setup",
+      "description": "Full 14-day install of a private AI stack for one local business.",
+      "amountUsd": 5000,
+      "interval": "one_time",
+      "priceId": "price_1U888o2KW30Lvi4heaUmxc80",
+      "paymentLink": "https://buy.stripe.com/00w6oA7Do3nnb2FcoU0Ba0a"
+    },
+    "retainer": {
+      "sku": "retainer",
+      "name": "Ops retainer",
+      "description": "Month-to-month ops after handoff. SOP plus a weekly 30-minute call.",
+      "amountUsd": 997,
+      "interval": "month",
+      "priceId": "price_1U888o2KW30Lvi4h3okaFHWK",
+      "paymentLink": "https://buy.stripe.com/fZu6oA1f02jj9YB0Gc0Ba0b"
+    }
+  }
+}
