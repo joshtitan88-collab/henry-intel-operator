@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description:
     "A 14-day install of a private AI stack for one local business. Same-week audit, one working agent on your job data, 14-day ride-along. Legal payee: H & H INVESTIGATION.",
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000",
+    process.env.NEXT_PUBLIC_SITE_URL || "https://henry-intel-landing.vercel.app",
   ),
   robots: { index: true, follow: true },
   openGraph: {

@@ -58,7 +58,7 @@ export function formatUsd(amount: number): string {
 }
 
 export function siteUrl(): string {
-  const raw = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+  const raw = process.env.NEXT_PUBLIC_SITE_URL || "https://henry-intel-landing.vercel.app";
   return raw.replace(/\/+$/, "");
 }
 
